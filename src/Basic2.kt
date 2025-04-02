@@ -10,6 +10,9 @@ fun getIndices(count: Int): List<Int> {
     return List(count) { it + 1 }
 }
 
+// 새로운 함수 필요
+
+
 fun main() {
     fun printLength(obj: Any) {
         println("Getting the length of '$obj'. Result: ${getStringLength(obj) ?: "Error: The object is not a string"} ")

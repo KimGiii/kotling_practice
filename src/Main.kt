@@ -51,4 +51,6 @@ fun main() {
     val user2 = User("Bob", "guest")
     processUserRole(user2)
 
+    // 추가할 구문
+
 }

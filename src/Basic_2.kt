@@ -18,5 +18,5 @@ fun main() {
     printLength(1000)
     printLength(listOf(Any()))
 
-    println(getIndices(-2))
+    println(getIndices(-1))
 }

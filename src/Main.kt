@@ -14,4 +14,20 @@ fun main() {
     println("max is $max")
     println("HUNGRY")
 
+    // check 함수 사용
+    var someState: String? = null
+
+    fun getStateValue(): String {
+
+        val state = checkNotNull(someState) { "State must be set beforehand!" }
+        check(state.isNotEmpty()) { "State must be non-empty!" }
+        return state
+    }
+
+    someState = "ㅇ"
+
+    someState = "non-empty-state"
+
+    println(getStateValue())
+
 }

@@ -8,14 +8,16 @@ fun printProduct(arg1: String, arg2: String) {
 
     if (x == null) {
         println("$arg1 is not a number")
+        println("작업 실패!")
         return
     }
     if (y == null) {
         println("$arg2 is not a number")
+        println("작업 실패!")
         return
     }
     println(x * y)
-
+    println("작업 성공")
 }
 
 fun main() {

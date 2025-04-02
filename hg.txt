@@ -2,4 +2,5 @@ heegunhee - 2
 hg.main
 heegunhee - rebase - heegun
 heegunhee - rebase-main
-gmlgmlgml - squash - main
+gmlgmlgml - squash
+gmlgmlgml - squash2

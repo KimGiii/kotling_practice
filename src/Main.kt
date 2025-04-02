@@ -37,7 +37,8 @@ fun main() {
 
     someState = "ㅇ"
 
-    someState = "non-empty-state"
+    // 문자열 수정
+    someState = "nonEmptyState"
 
     println(getStateValue())
 

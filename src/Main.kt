@@ -51,6 +51,25 @@ fun main() {
     val user2 = User("Bob", "guest")
     processUserRole(user2)
 
-    // 추가할 구문
-    // 22
+    // try-catch 구문 연습
+    val num: Int = try {
+
+        // If count() completes successfully, its return value is assigned to num
+        count()
+
+    } catch (e: ArithmeticException) {
+
+        // If count() throws an exception, the catch block returns -1,
+        // which is assigned to num
+        -1
+    }
+    println("Result: $num")
+
+}
+
+fun count(): Int {
+
+    val a = 0
+
+    return 10 / a
 }

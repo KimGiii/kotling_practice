@@ -12,10 +12,11 @@ fun printProduct(arg1: String, arg2: String) {
         return
     }
     // y 조건 : 2 -> 3
-    if (y == 3) {
+    // 변수 오류 : 3 -> null
+    if (y == null) {
         println("$arg2 is not a number")
         println("작업 실패!")
-        
+
         return
     }
     // Basic - main 수정

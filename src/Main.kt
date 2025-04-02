@@ -52,5 +52,5 @@ fun main() {
     processUserRole(user2)
 
     // 추가할 구문
-
+    // 22
 }

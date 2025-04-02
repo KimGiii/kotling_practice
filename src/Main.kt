@@ -1,3 +1,14 @@
+class User(val name: String, val role: String)
+
+fun processUserRole(user: User) {
+    when (user.role) {
+        "admin" -> println("${user.name} is an admin.")
+        "editor" -> println("${user.name} is an editor.")
+        "viewer" -> println("${user.name} is a viewer.")
+        else -> error("Undefined role: ${user.role}")
+    }
+}
+
 fun main() {
 
     val items = listOf("apple", "banana", "kiwi", "pineapple", "orange")
@@ -29,5 +40,12 @@ fun main() {
     someState = "non-empty-state"
 
     println(getStateValue())
+
+    // error 함수 사용
+    val user1 = User("Alice", "admin")
+    processUserRole(user1)
+
+    val user2 = User("Bob", "guest")
+    processUserRole(user2)
 
 }

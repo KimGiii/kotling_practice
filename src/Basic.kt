@@ -11,8 +11,8 @@ fun printProduct(arg1: String, arg2: String) {
         println("작업 실패!")
         return
     }
-    // y 조건 : null -> 1
-    if (y == 1) {
+    // y 조건 : 1 -> 2
+    if (y == 2) {
         println("$arg2 is not a number")
         println("작업 실패!")
         

@@ -20,11 +20,12 @@ fun printProduct(arg1: String, arg2: String) {
         return
     }
     // develop - 1 : 기능 추가 필요
-
-
-    // Basic - main 수정
-    println(x * y)
-    println("작업 성공")
+    else {
+        println(x * y)
+        println("작업 성공")
+        return
+    }
+    println("작업 끝")
 }
 
 fun main() {

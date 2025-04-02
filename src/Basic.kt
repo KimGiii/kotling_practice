@@ -18,6 +18,7 @@ fun printProduct(arg1: String, arg2: String) {
         
         return
     }
+    // Basic - main 수정
     println(x * y)
     println("작업 성공")
 }

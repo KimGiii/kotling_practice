@@ -19,11 +19,13 @@ fun main() {
         index++
     }
 
-    val a = readln()
-    val b = readln()
-    var max = if (a > b) a else b
-    println("max is $max")
-    println("HUNGRY")
+    // 입력 방식 변경
+    val a = readln().toInt()
+    val b = readln().toInt()
+    // 조건 변경
+    var min = if (a > b) b else a
+    println("min is $min")
+    // HUNGRY 출력문 삭제
 
     // check 함수 사용
     var someState: String? = null

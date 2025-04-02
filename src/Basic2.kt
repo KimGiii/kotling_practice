@@ -20,3 +20,6 @@ fun main() {
 
     println(getIndices(-2))
 }
+
+// 주석1
+// 주석2

@@ -24,5 +24,4 @@ fun main() {
     printProduct("a", "b")
     printProduct("8", "6")
     printProduct("9", "c")
-
 }

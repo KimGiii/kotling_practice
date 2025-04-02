@@ -21,5 +21,5 @@ fun main() {
     println(getIndices(-2))
 }
 
-// 주석11
+// 주석1
 // 주석22

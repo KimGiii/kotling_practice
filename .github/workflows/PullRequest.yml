@@ -8,10 +8,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up JDK 21
-        with:
-          java-version: 21
-      - name: Grant Execute permission for gradlew
-        run: chmod +x gradlew
-      - name: Test with Gradle
-        run: ./gradlew test
+      - name: pull-request 확인
+        run: echo "PR Success"

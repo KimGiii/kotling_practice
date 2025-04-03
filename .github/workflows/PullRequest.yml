@@ -1,8 +1,17 @@
 name: PullRequest
-on: pull_request
+on:
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
 jobs:
-  my-job:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run: echo "Pull Request Occurred"
+      - name: Set up JDK 21
+        with:
+          java-version: 21
+      - name: Grant Execute permission for gradlew
+        run: chmod +x gradlew
+      - name: Test with Gradle
+        run: ./gradlew test

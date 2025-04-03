@@ -1,1 +1,2 @@
 release/0.1.0에서 a.txt
+main에서 a.txt
